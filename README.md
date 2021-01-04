@@ -69,4 +69,4 @@ POST http://localhost:8000/categories/
 }
 ```
 #### Example request to get categories:
-http://localhost:8000/categories/<id>/
+http://localhost:8000/categories/id/
