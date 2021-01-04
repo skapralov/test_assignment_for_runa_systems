@@ -1,12 +1,12 @@
 ## Categories API
 
-####Build the images and run the containers:
+#### Build the images and run the containers:
 ```
 docker-compose up -d
 ```
 Test it out at http://localhost:8000
 
-####Example request to create categories:
+#### Example request to create categories:
 POST http://localhost:8000/categories/ 
 
 ```
@@ -68,5 +68,5 @@ POST http://localhost:8000/categories/
   ]
 }
 ```
-####Example request to get categories:
+#### Example request to get categories:
 http://localhost:8000/categories/<id>/
